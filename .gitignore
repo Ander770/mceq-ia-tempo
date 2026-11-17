@@ -1,0 +1,6 @@
+# Os dados não são redistribuídos aqui (a fonte não declara licença).
+# O script baixar_dados.py baixa direto do repositório original.
+dados/
+
+__pycache__/
+.ipynb_checkpoints/
