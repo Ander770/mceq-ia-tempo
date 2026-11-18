@@ -24,15 +24,21 @@ Desenho: pareado por desenvolvedor (16 desenvolvedores fizeram tarefas nas duas 
 
 ## Como reexecutar
 
+**Pelo Google Colab (mais fácil):** abrir `analise.ipynb` no Colab e usar *Ambiente de execução → Executar tudo*. O notebook baixa os dados sozinho.
+
+**No computador:**
 1. Instalar as bibliotecas: `pip install -r requirements.txt`
 2. Baixar os dados: `python baixar_dados.py` (o arquivo vai para `dados/brutos/`)
-3. Rodar a análise: [a definir]
+3. Abrir e executar `analise.ipynb` do início ao fim
 
 ## Estrutura
 
 ```
+protocolo.pdf      protocolo de 1 página (escrito antes da análise)
+analise.ipynb      análise completa: limpeza, descritiva, figura e teste
 baixar_dados.py    script que baixa os dados da fonte original
 requirements.txt   bibliotecas usadas
 dados/brutos/      dados originais, criados pelo script (não editar à mão)
 dados/limpos/      dados limpos, gerados pela análise
+figuras/           figura do artigo, gerada pela análise
 ```
