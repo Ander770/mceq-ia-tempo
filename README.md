@@ -40,5 +40,5 @@ baixar_dados.py    script que baixa os dados da fonte original
 requirements.txt   bibliotecas usadas
 dados/brutos/      dados originais, criados pelo script (não editar à mão)
 dados/limpos/      dados limpos, gerados pela análise
-figuras/           figura do artigo, gerada pela análise
+figuras1.pgn           figura do artigo, gerada pela análise
 ```
